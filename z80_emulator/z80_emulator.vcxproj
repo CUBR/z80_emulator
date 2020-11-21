@@ -115,6 +115,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="z80.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="z80.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -115,9 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="Memory.h" />
     <ClInclude Include="z80.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Memory.cpp" />
     <ClCompile Include="z80.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
